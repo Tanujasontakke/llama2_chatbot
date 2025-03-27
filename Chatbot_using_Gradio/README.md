@@ -44,7 +44,7 @@ cd llama2_chatbot
 ### Step 2: Start the Chatbot
 Run the following command to start the chatbot. It will launch a local Gradio interface, which you can interact with through your browser.
 ```bash
-python chatbot.py
+python chatbot_autoSave.py
 ```
 ### Step 3: Start Chat!
 Once the app is running, you’ll see a web interface where you can chat with the bot. You can:
