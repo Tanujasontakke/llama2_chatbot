@@ -9,3 +9,6 @@ Here are some screenshots of the LLaMA 2 Chatbot.
 
 ## Screenshot 3: Chat History
 ![Chat History](./images/Screenshot3.png)
+
+## Screenshot 4: Program Execution 
+![Program Execution](./images/Screenshot4.png)
