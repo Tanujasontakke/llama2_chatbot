@@ -19,7 +19,7 @@ The chatbot relies on a few libraries to work, so for installing them open your 
 pip install torch 
 pip install transformers
 pip install gradio
-
+```
 These will get PyTorch, Transformers (from Hugging Face), and Gradio installed – the core components of the project.
 
 ### 3. GPU Setup (Optional Step)
@@ -28,7 +28,7 @@ If you have a GPU available, the code will automatically use it for faster perfo
 ```bash
 import torch
 print("GPU Available:", torch.cuda.is_available())
-
+```
 If you don’t have a GPU, no worries! The chatbot will run on your CPU, but it may be slower.
 
 ## Running the Chatbot
@@ -40,12 +40,12 @@ Start by cloning the repo to your local machine:
 ```bash
 git clone https://github.com/Tanujasontakke/llama2_chatbot.git
 cd llama2_chatbot
-
+```
 ### Step 2: Start the Chatbot
 Run the following command to start the chatbot. It will launch a local Gradio interface, which you can interact with through your browser.
 ```bash
 python chatbot.py
-
+```
 ### Step 3: Start Chat!
 Once the app is running, you’ll see a web interface where you can chat with the bot. You can:
 	•	Start a new chat session.
