@@ -1,4 +1,4 @@
-# LLaMA 2 Chatbot
+# LLaMA 2 Chatbot🤖
 
 ## Introduction
 This is a LLaMA 2 Chatbot project which is conversational AI powered by the LLaMA 2 model, designed to create an interactive chatbot experience. The chatbot uses a pre-trained model to generate human-like responses in a chat format, and I’ve built a simple yet effective interface using Gradio to make chatting with the AI a breeze.
@@ -46,14 +46,15 @@ Run the following command to start the chatbot. It will launch a local Gradio in
 ```bash
 python chatbot_autoSave.py
 ```
-### Step 3: Start Chat!
+### Step 3: Start Chat!💬
 Once the app is running, you’ll see a web interface where you can chat with the bot. You can:
 	•	Start a new chat session.
 	•	Select an existing chat session.
 	•	Type your messages and receive responses from the chatbot.
 The bot uses the LLaMA 2 model to generate replies, and it remembers the conversation context, so it’s like chatting with a real person!
 
-## How It Works
+## How It Works💻
 The detailed working of the project is explained in the [How It Works](How_It_Works.md) file.
 
 
+<sub>Emojis sourced from: [GitHub Emoji List](https://gist.github.com/rxaviers/7360908)</sub>
