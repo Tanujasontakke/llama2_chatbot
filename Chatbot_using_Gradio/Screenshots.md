@@ -1,4 +1,4 @@
-# Project Screenshots
+# 📸 Project Screenshots
 Here are some screenshots of the LLaMA 2 Chatbot.
 
 ## Screenshot 1: Chat Interface
