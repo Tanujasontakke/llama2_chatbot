@@ -1,4 +1,4 @@
-# LLaMA 2 Chatbot🤖
+# 🤖 LLaMA 2 Chatbot
 
 ## Introduction
 This is a LLaMA 2 Chatbot project which is conversational AI powered by the LLaMA 2 model, designed to create an interactive chatbot experience. The chatbot uses a pre-trained model to generate human-like responses in a chat format, and I’ve built a simple yet effective interface using Gradio to make chatting with the AI a breeze.
@@ -31,7 +31,7 @@ print("GPU Available:", torch.cuda.is_available())
 ```
 If you don’t have a GPU, no worries! The chatbot will run on your CPU, but it may be slower.
 
-## Running the Chatbot
+## ⚡ Running the Chatbot
 Once the dependencies are installed and you’re all set up, here’s how you can run the chatbot:
 
 ### Step 1: Clone the Repository
@@ -53,7 +53,7 @@ Once the app is running, you’ll see a web interface where you can chat with th
 	•	Type your messages and receive responses from the chatbot.
 The bot uses the LLaMA 2 model to generate replies, and it remembers the conversation context, so it’s like chatting with a real person!
 
-## How It Works💻
+## 💻 How It Works
 The detailed working of the project is explained in the [How It Works](How_It_Works.md) file.
 
 
