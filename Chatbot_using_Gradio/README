@@ -1,23 +1,25 @@
 # LLaMA 2 Chatbot
 
-##Introduction
+## Introduction
 This is a LLaMA 2 Chatbot project which is conversational AI powered by the LLaMA 2 model, designed to create an interactive chatbot experience. The chatbot uses a pre-trained model to generate human-like responses in a chat format, and I’ve built a simple yet effective interface using Gradio to make chatting with the AI a breeze.
 
-##Why This Project?
+## Why This Project?
 The idea behind this project was the use of LLaMA 2, a state-of-the-art language model, to create a chatbot that can carry on meaningful conversations. The chatbot is designed to remember your chat history across sessions, which adds a personal touch to each interaction. You can think of it as a little helper that learns and improves over time, while also being a lot of fun to interact with!
 
-##What You Need to Get Started
+## What You Need to Get Started
 Before jumping into the code, let’s make sure you have everything set up:
 
-###1. Python 3.7 or Higher
+### 1. Python 3.7 or Higher
 Make sure you have Python 3.7 or a higher version installed on your machine.
 
-###2. Install Dependencies
+### 2. Install Dependencies
 The chatbot relies on a few libraries to work, so for installing them open your terminal or command prompt and run the following:
+
 ```bash
 pip install torch 
 pip install transformers
 pip install gradio
+
 These will get PyTorch, Transformers (from Hugging Face), and Gradio installed – the core components of the project.
 
 ###3. GPU Setup (Optional Step)
