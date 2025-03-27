@@ -5,10 +5,10 @@ The latest version of the chatbot has been included with a Gradio-based web inte
 This updated version can be found in the **Chatbot_using_Gradio** folder of this repository.
 
 ## Features in the Gradio Version:
-	•	✅ Gradio UI: Interactive web interface for chatting with the model.
-	•	✅ Multiple Chat Sessions: Manage and switch between chat sessions.
-	•	✅ History Saving: The chatbot remembers previous interactions, making conversations feel more personalized.
-	•	✅ Easy Setup: Simplified process to run the chatbot with just a few commands.
+	✅ Gradio UI: Interactive web interface for chatting with the model.
+	✅ Multiple Chat Sessions: Manage and switch between chat sessions.
+	✅ History Saving: The chatbot remembers previous interactions, making conversations feel more personalized.
+	✅ Easy Setup: Simplified process to run the chatbot with just a few commands.
 
 --- 
 # Llama2 Chatbot
