@@ -1,4 +1,4 @@
-# How It Works
+# 💻 How It Works
 A brief overview of how things work behind:
 
 ## LLaMA 2 Model
@@ -42,7 +42,7 @@ def format_message(message: str, history: list) -> str:
     formatted_message += f"<s>[INST] {message} [/INST]"
     return formatted_message
 ```
-# Things to Remember - 
+# 📝 Things to Remember - 
 	•	Chat History: The chatbot keeps track of the conversation history. If the file becomes too large, you might want to limit how many past exchanges it remembers.
 	•	GPU: If you have a GPU, the chatbot will use it for faster performance, but it will work fine on a CPU as well. It might be a bit slower, though.
 	•	Model Size: The LLaMA-2-7B model is large, so make sure you have enough disk space and memory.
