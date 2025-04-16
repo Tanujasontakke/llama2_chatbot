@@ -1,4 +1,5 @@
 import torch
+from dotenv import load_dotenv
 from transformers import AutoTokenizer, pipeline
 import json
 import os
@@ -15,14 +16,21 @@ CHAT_HISTORY_FILE = "chat_history.json"
 # Dictionary to store chat sessions
 chat_sessions = {}
 
+# Load environment variables from .env file
+load_dotenv()
+
+# Fetch Hugging Face token from environment
+huggingface_token = os.getenv("HUGGINGFACE_TOKEN")
+
 # Load Llama 2 model and tokenizer
 model = "meta-llama/Llama-2-7b-chat-hf"
-tokenizer = AutoTokenizer.from_pretrained(model, use_auth_token=True, force_download=True)
+tokenizer = AutoTokenizer.from_pretrained(model, token=huggingface_token, force_download=True)
 
 # Create a text-generation pipeline
 llama_pipeline = pipeline(
     "text-generation",
     model=model,
+    token=huggingface_token,
     torch_dtype=torch.float16,
     device_map="auto",
 )
